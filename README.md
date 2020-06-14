@@ -18,7 +18,7 @@ explanations for these metrics, and algorithms to mitigate bias in datasets and 
 We have developed this project from scratch, In the Question 1, we did an overview of the metrics and algorithms included in the AIF360 package. In question 2, we used the metric “mean difference” outcomes between unprivileged and privileged groups to determine the fairness. We then applied Reweighing algorithm for bias mitigation. For question 3, we used Optimized Preprocessing Algorithm for bias mitigation. And in question 4, we compared both results using Reweighting and Optimized Preprocessing algorithm. Finally, we incorporated an additional section called "additional work" to show other features that are necessary to understand the project better. These are, Training unbiased models using Logistic Regression, Calculating Disparate Impact metric on train dataset without AIF360 package. We analyzed the Original Dataset using graphics such as Histogram, Pair Plot and Correlation. Additionally, we analyzed the group age, the privileged and unprivileged attribute with favorable and unfavorable outcomes.
 
 
-##Setup 
+### Setup 
 
 This notebook is prepared to run easily, it includes in its lines:
 AIF360 package installer
