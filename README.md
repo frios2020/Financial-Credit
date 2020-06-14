@@ -2,8 +2,8 @@ Project 1: Use of AI Fairness 360 (AIF360) Package on Financial Credit Dataset
 ==============================================================================
 
 NJIT Data Science Program Course
-CS634 Data Mining - Summer 2020
-Instructor Pantelis Monogioudis, Ph.D Professor of Practice, NJIT & Adjunct NYU
+CS634 Data Mining - Summer 2020 <br>
+Instructor Pantelis Monogioudis, Ph.D Professor of Practice, NJIT & Adjunct NYU<br>
 Teaching Assistant Michael Lam (PhD student)
 
 
