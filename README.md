@@ -7,23 +7,23 @@ Instructor Pantelis Monogioudis, Ph.D Professor of Practice, NJIT & Adjunct NYU<
 Teaching Assistant Michael Lam (PhD student)
 
 
-Students:
-Fernando Rios 
-Hassan Ouanir
-Ian Kavuma
-
+Students:<br> Fernando Rios <br> Hassan Ouanir <br> Ian Kavuma
 
 Description
 
-The AI Fairness 360 toolkit is an extensible open-source library containg techniques developed by the research community to help detect and mitigate bias in machine learning models throughout the AI application lifecycle. <br> The AI Fairness 360 Python package includes a comprehensive set of metrics for datasets and models to test for biases,
+	The AI Fairness 360 toolkit is an extensible open-source library containg techniques developed by the research community to help detect and mitigate bias in machine learning models throughout the AI application lifecycle. <br> The AI Fairness 360 Python package includes a comprehensive set of metrics for datasets and models to test for biases,
 explanations for these metrics, and algorithms to mitigate bias in datasets and models. 
 
-We have developed this project from scratch, In the Question 1, we did an overview of the metrics and algorithms included in the AIF360 package. In question 2, we used the metric “mean difference” outcomes between unprivileged and privileged groups to determine the fairness. We then applied Reweighing algorithm for bias mitigation. For question 3, we used Optimized Preprocessing Algorithm for bias mitigation. And in question 4, we compared both results using Reweighting and Optimized Preprocessing algorithm. Finally, we incorporated an additional section called "additional work" to show other features that are necessary to understand the project better. These are, Training unbiased models using Logistic Regression, Calculating Disparate Impact metric on train dataset without AIF360 package. We analyzed the Original Dataset using graphics such as Histogram, Pair Plot and Correlation. Additionally, we analyzed the group age, the privileged and unprivileged attribute with favorable and unfavorable outcomes.
-
+	This project consists of four questions related to bias and mitigation on Financial Credit Dataset (GermanData). 
+<br>In the question 1, we did an overview of the metrics and algorithms of bias mitigation, included in the AIF360 package. 
+<br>In question 2, we used the metric "mean difference" outcome between unprivileged and privileged groups to determine the fairness. We then  applied Reweighing algorithm for bias mitigation.
+<br>For question 3, we used Optimized Preprocessing Algorithm for bias mitigation with the same metric.
+<br>In question 4, we compared both results using Reweighting and Optimized Preprocessing algorithms. The metrics and bias mitigation algorithms were used in train and test datasets.
+Finally, we incorporated an additional section called "additional work" to show others features that are necessary to understand the project better.<br> These are, Training unbiased models using Logistic Regression, Calculating Disparate Impact metric on train dataset without AIF360 package. We analyzed the Original Dataset using graphics such as Histogram, Pair Plot and Correlation.<br> Additionally, we analyzed the group age, the privileged and unprivileged attribute with favorable and unfavorable outcomes.
 
 ### Setup 
-
-This notebook is prepared to run easily, it includes in its lines:
+This notebook is prepared to run easily, just select the option "run all" in google colab. 
+In its lines this notebook install the AIF360 package, setting all libraries, copy the dataset file german.data in google colab, load and split the dataset.
 ### AIF360 package installer
 ```bash
 	! pip install aif360
