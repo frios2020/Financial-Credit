@@ -7,7 +7,10 @@ Instructor Pantelis Monogioudis, Ph.D Professor of Practice, NJIT & Adjunct NYU<
 Teaching Assistant Michael Lam (PhD student)
 
 
-Students:Fernando Rios Hassan Ouanir Ian Kavuma
+Students:
+Fernando Rios 
+Hassan Ouanir
+Ian Kavuma
 
 
 Description
@@ -21,7 +24,7 @@ We have developed this project from scratch, In the Question 1, we did an overvi
 ### Setup 
 
 This notebook is prepared to run easily, it includes in its lines:
-AIF360 package installer
+### AIF360 package installer
 ```bash
 	! pip install aif360
 ``` 
@@ -61,8 +64,16 @@ Copy of the original dataset german.data to google colab folder.
 
 ``` python  
 	!wget -O ../usr/local/lib/python3.6/dist-packages/aif360/data/raw/german/german.data https://archive.ics.uci.edu/ml/machine-learning-databases/statlog/german/german.data
-``` 
-## Contributing 
+```
+Loading  and split dataset 
+``` python 
+dataset_orig = GermanDataset(protected_attribute_names=['age'],privileged_classes=[lambda x: x >= 25],features_to_drop=['personal_status', 'sex']  dataset_orig_train, dataset_orig_test = dataset_orig.split([0.7], shuffle=True)
+privileged_groups = [{'age': 1}]
+unprivileged_groups = [{'age': 0}]
+```
+After this, you can go through the all lines to read the description of each method applied to detect bias and determine bias mitigation.
+
+### Contributing 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
