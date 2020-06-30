@@ -11,10 +11,10 @@ Students:<br> Fernando Rios <br> Hassan Ouanir <br> Ian Kavuma
 
 Description
 
-	The AI Fairness 360 toolkit is an extensible open-source library containg techniques developed by the research community to help detect and mitigate bias in machine learning models throughout the AI application lifecycle. <br> The AI Fairness 360 Python package includes a comprehensive set of metrics for datasets and models to test for biases,
+The AI Fairness 360 toolkit is an extensible open-source library containg techniques developed by the research communityto help detect and mitigate bias in machine learning models throughout the AI application lifecycle. The AI Fairness 360 Python package includes a comprehensive set of metrics for datasets and models to test for biases,
 explanations for these metrics, and algorithms to mitigate bias in datasets and models. 
 
-	This project consists of four questions related to bias and mitigation on Financial Credit Dataset (GermanData). 
+This project consists of four questions related to bias and mitigation on Financial Credit Dataset (GermanData). 
 <br>In the question 1, we did an overview of the metrics and algorithms of bias mitigation, included in the AIF360 package. 
 <br>In question 2, we used the metric "mean difference" outcome between unprivileged and privileged groups to determine the fairness. We then  applied Reweighing algorithm for bias mitigation.
 <br>For question 3, we used Optimized Preprocessing Algorithm for bias mitigation with the same metric.
